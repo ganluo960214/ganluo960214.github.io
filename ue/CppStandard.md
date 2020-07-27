@@ -78,3 +78,7 @@ public class Project : ModuleRules
 }
 
 ```
+
+更改项目VS属性
+
+NMake -> IntelliSense -> Additional Options : /std:c++17
