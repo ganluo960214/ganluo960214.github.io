@@ -17,10 +17,10 @@ public class ProjectTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange( new string[] { "Project" } );
 
-        // add CppStandard begin
-        CppStandard = CppStandardVersion.Cpp17;
-        // add CppStandard end
-    }
+		// add CppStandard begin
+		CppStandard = CppStandardVersion.Cpp17;
+		// add CppStandard end
+	}
 }
 ```
 
@@ -39,11 +39,11 @@ public class ProjectEditorTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange( new string[] { "Project" } );
 
-        // add CppStandard begin
+		// add CppStandard begin
 		bOverrideBuildEnvironment = true;
 		CppStandard = CppStandardVersion.Cpp17;
-        // add CppStandard end
-    }
+		// add CppStandard end
+	}
 }
 ```
 
@@ -63,18 +63,18 @@ public class Project : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
-        // Uncomment if you are using Slate UI
-        // PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
+		// Uncomment if you are using Slate UI
+		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 
-        // Uncomment if you are using online features
-        // PrivateDependencyModuleNames.Add("OnlineSubsystem");
+		// Uncomment if you are using online features
+		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
 
-        // To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
+		// To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
 
-        // add CppStandard begin
-        CppStandard = CppStandardVersion.Cpp17;
-        // add CppStandard end
-    }
+		// add CppStandard begin
+		CppStandard = CppStandardVersion.Cpp17;
+		// add CppStandard end
+	}
 }
 
 ```
