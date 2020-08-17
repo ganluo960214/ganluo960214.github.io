@@ -72,6 +72,7 @@ public class Project : ModuleRules
 		// To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
 
 		// add CppStandard begin
+		bOverrideBuildEnvironment = true;
 		CppStandard = CppStandardVersion.Cpp17;
 		// add CppStandard end
 	}
