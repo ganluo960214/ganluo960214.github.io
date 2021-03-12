@@ -2,7 +2,7 @@
 
 ## Scalable Vector Graphics
 
-### [Scalable Vector Graphics](Scalable\Vector\Graphics/Scalable\Vector\Graphics)
+### [Scalable Vector Graphics](Scalable%20Vector%20Graphics/Scalable%20Vector%20Graphics)
 
 ## UE
 
