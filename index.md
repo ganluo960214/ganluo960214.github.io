@@ -1,8 +1,8 @@
 # Catalog
 
-## Scalable Vector Graphics
+## Scalable Vector Model
 
-### [Scalable Vector Graphics](Scalable%20Vector%20Graphics/Scalable%20Vector%20Graphics)
+### [Scalable Vector Model](Scalable%20Vector%20Model/Scalable%20Vector%20Model)
 
 ## UE
 
